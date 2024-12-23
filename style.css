@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+
+.top{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 2;
+    background: radial-gradient(
+        #ffffff00,
+        #000000  
+    );
+    opacity: 0.5;
+}
+
+.wrap{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 6;
+}
+.box01{
+    width: 100%;
+    padding-top: 54px;
+    text-align: center;
+
+}
+.box02{
+    width: 100%;
+    padding-top: 63px;
+    text-align: center;
+}
+.box02 > img{
+    animation-name: ani01;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+@keyframes ani01{
+    0%{opacity: 0;width: 300px;}
+    100%{opacity: 1; width: 391px;}
+}
+.box03{
+    width: 100%;
+    padding-top: 53px;
+    text-align: center;
+
+}
+.box04{
+    width: 100%;
+    padding-top: 81px;
+    text-align: center;
+    font-family: "Noto Sans KR";
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    line-height: 45px;
+    color: white;
+    animation-name: ani02;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+@keyframes ani02{
+    0%{opacity: 0;line-height: 20px;}
+    100%{opacity: 1; }
+}
+
+/*인덱스 스타일 */
+video{
+
+}
+.top{
+
+}
+.wrap{
+
+}
+.box01{
+
+}
+.box02{
+
+}
+.box03{
+
+}
+
+/* 서브페이지 스타일 */
+.font00{font-family: "Noto Sans KR", sans-serif;}
+.font01{font-size: 24px; font-weight: 800; letter-spacing: 10px; line-height: 32px; color: white;}
+.font02{font-size: 17px; font-weight: 100; letter-spacing: 5px; line-height: 30px; color: white;}
+
+.font03{font-size: 24px; margin-block-start: 20px; font-weight: 800; letter-spacing: 10px; line-height: 32px; color: white;}
+.font04{font-size: 17px; font-weight: 100; letter-spacing: 20px; line-height: 30px; color: white;}
+
+.font05{font-size: 27px; font-weight: 300; letter-spacing: 20px; line-height: 36px; color: white;}
+.font06{font-size: 17px; font-weight: 100; letter-spacing: 20px; line-height: 30px; color: white;}
+.font07{font-size: 13px; font-weight: 50; letter-spacing: 35px; line-height: 20px; color: white;}
+
+.font08{font-size: 27px; font-weight: 800; letter-spacing: 10px; line-height: 32px; color: white;}
+.font09{font-size: 17px; font-weight: 100; letter-spacing: 20px; line-height: 30px; color: white;}
+
+.font10{font-size: 13px; font-weight: 50; letter-spacing: 35px; line-height: 20px; color: white;}
+.font11{font-size: 54px; font-weight: 300; letter-spacing: 20px; line-height: 72px; color: white;}
+.font12{font-size: 17px; font-weight: 100; letter-spacing: 20px; line-height: 30px; color: white;}
+
+.font13{font-size: 13px; font-weight: 50; letter-spacing: 35px; line-height: 20px; color: white;}
+.font14{font-size: 54px; font-weight: 300; letter-spacing: 20px; line-height: 72px; color: white;}
+.font15{font-size: 17px; font-weight: 100; letter-spacing: 20px; line-height: 30px; color: white;}
+
+.font16{font-size: 13px; font-weight: 50; letter-spacing: 35px; line-height: 20px; color: white;}
+.font17{font-size: 54px; font-weight: 300; letter-spacing: 20px; line-height: 72px; color: white;}
+.font15{font-size: 17px; font-weight: 100; letter-spacing: 20px; line-height: 30px; color: white;}
+
+/*가장 큰 단위 블럭 스타일 정비*/
+.b01{height: 911px; position: relative;}
+.b02{height: 630px; background-image: url(b02_01.png); background-color: #2a4350; }
+.b03{height: 642px; background-image: url(b03_01.png); background-color: #8b7387; margin-top: 0%;}
+.b04{height: 957px; background-color: #263c59; background-image: url(b04_01.png);}
+.b05{height: 981px; background-image: url(b05_01.png); background-color: #551900;}
+.b06{height: 1055.67px; background-image: url(b06_01.png); background-color: #d36ba4;}
+.b07{height: 1192.33px; background-image: url(b07_01.png); background-color: #d1b86b;}
+.b08{height: 1044px; background-image: url(b08_01.png); background-color: #51447b;} 
